@@ -11,7 +11,7 @@ function input(){
 	else
 	{
 		$.ajax({
-			url : 'http://localhost/app_pesiber/ajax.php',
+			url : 'http://jokerman17.twomini.com/app_pesiber/ajax.php',
 			type : 'POST',
 			data : 'tipe=input&nama='+nama+'&raport='+raport+'&absensi='+absensi+'&sikap='+sikap+'&ekstra='+ekstra,
 			success : function (msg) {

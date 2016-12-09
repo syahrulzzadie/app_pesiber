@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$.ajax({
-		url : 'http://localhost/app_pesiber/ajax.php',
+		url : 'http://jokerman17.twomini.com/app_pesiber/ajax.php',
 		type : 'POST',
 		data : 'tipe=select',
 		success : function (msg) {
